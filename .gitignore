@@ -41,6 +41,3 @@ public/r/
 
 # Turbo
 .turbo/
-
-# pnpm
-pnpm-lock.yaml

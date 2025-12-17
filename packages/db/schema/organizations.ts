@@ -11,8 +11,8 @@ export const organizations = pgTable('organizations', {
 
   // Configuration stored as JSON for flexibility
   config: jsonb('config').$type<{
-    language: 'en' | 'he' | 'es';
-    timezone: string;
+    language?: 'en' | 'he' | 'es';
+    timezone?: string;
     customInstructions?: string;
     branding?: {
       logo?: string;
